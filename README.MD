@@ -11,13 +11,16 @@ The system includes:
 
 💾 Model Saved with Joblib
 
-🧠 Tech Stack
-Component	Technology
-Data / ML	Pandas, Scikit-Learn, Joblib
-Backend API	FastAPI, Uvicorn, Pydantic
-Frontend	Streamlit
-Others	Requests, NumPy
+| Component   | Technology                   |
+| ----------- | ---------------------------- |
+| Data / ML   | Pandas, Scikit-Learn, Joblib |
+| Backend API | FastAPI, Uvicorn, Pydantic   |
+| Frontend    | Streamlit                    |
+| Others      | Requests, NumPy              |
+
+
 📁 Project Structure
+
 📂 Exam Score Prediction
 │── 📁 data
 │     └── Exam_Score_Prediction.csv
@@ -27,6 +30,7 @@ Others	Requests, NumPy
 │── main.py                 # FASTAPI Backend
 │── app.py                  # Streamlit Frontend
 │── requirements.txt
+
 
 ⚙️ How It Works
 
