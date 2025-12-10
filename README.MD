@@ -21,15 +21,18 @@ The system includes:
 
 📁 Project Structure
 
-📂 Exam Score Prediction
-│── 📁 data
-│     └── Exam_Score_Prediction.csv
-│── 📁 model
-│     └── exam_score_model.pkl
-│── train_model.py
-│── main.py                 # FASTAPI Backend
-│── app.py                  # Streamlit Frontend
-│── requirements.txt
+Exam Score Prediction/
+├── app/
+│   ├── main.py          # FastAPI Backend (The Brain)
+│   └── app.py           # Streamlit Frontend (The Interface)
+├── data/
+│   └── Exam_Score_Prediction.csv        # Raw Dataset
+├── model/
+│   └── exam_score_model.pkl  # Trained Model Artifact
+├── src/
+│   └── train_model.py   # Script to train and save the model
+├── requirements.txt     # Dependencies
+└── README.md            # Project Documentation
 
 
 ⚙️ How It Works
